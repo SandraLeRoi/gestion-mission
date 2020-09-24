@@ -2,8 +2,10 @@
 
 namespace App\Controller;
 
+use App\Entity\Employee;
 use App\Entity\Team;
 use App\Form\TeamType;
+use App\Repository\EmployeeRepository;
 use App\Repository\TeamRepository;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
@@ -68,7 +70,6 @@ class TeamController extends AbstractController
 
         if ($form->isSubmitted() && $form->isValid()) {
             $this->getDoctrine()->getManager()->flush();
-
             return $this->redirectToRoute('team_index');
         }
 

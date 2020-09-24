@@ -30,7 +30,7 @@ class Employee
     private $lastName;
 
     /**
-     * @ORM\Column(type="string", length=255)
+     * @ORM\Column(type="string", length=255, unique=true)
      */
     private $nir;
 
@@ -146,5 +146,9 @@ class Employee
         }
 
         return $this;
+    }
+
+    public function __toString() {
+        return $this->firstName.'-'.$this->lastName;
     }
 }

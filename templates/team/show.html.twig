@@ -15,8 +15,19 @@
                 <th>Label</th>
                 <td>{{ team.label }}</td>
             </tr>
+            <tr>
+                <th>Employees</th>
+                <td>
+                    <ul>
+                        {% for employee in team.employees %}
+                            <li>{{ employee.firstName }} - {{ employee.lastName }}</li>
+                        {% endfor %}
+                    </ul>
+                </td>
+            </tr>
         </tbody>
     </table>
+
 
     <a href="{{ path('team_index') }}">back to list</a>
 

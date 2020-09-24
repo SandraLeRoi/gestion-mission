@@ -14,7 +14,7 @@ class TeamType extends AbstractType
         $builder
             ->add('label')
             ->add('director')
-            ->add('employees')
+            ->add('employees', null, ["by_reference"=> false])
         ;
     }
 
