@@ -12,14 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4f330913-0b14-4428-8249-14a736c1b7c1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/TeamController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/TeamController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Client.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Client.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Employee.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Employee.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Mission.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Mission.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Team.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Team.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/TeamType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/TeamType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/employee/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/employee/show.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/team/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/team/show.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +140,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../php/laravel/Ecole" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../projet-article" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -168,6 +160,10 @@
       <updated>1600854800589</updated>
       <workItem from="1600854801992" duration="212000" />
       <workItem from="1600855027000" duration="10388000" />
+      <workItem from="1600930778194" duration="76000" />
+      <workItem from="1602486883023" duration="622000" />
+      <workItem from="1602509116492" duration="609000" />
+      <workItem from="1602572992068" duration="611000" />
     </task>
     <servers />
   </component>
@@ -191,9 +187,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600870631812" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1600864246757">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="-1180" y="275" key="FileChooserDialogImpl" timestamp="1602573007011">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
+    <state x="-1180" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1602573007011" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600864246757" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1600868714804">
       <screen x="0" y="0" width="1920" height="1040" />
